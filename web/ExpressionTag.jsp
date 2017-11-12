@@ -11,6 +11,11 @@
     <title>Title</title>
 </head>
 <body>
+    <%
+        String a = "seymma";
+        String b = "seymma";
+        out.print(a + " " + b);
+    %>
     <!-- declaration tag -->
     <%!
         public String name = "Şeyma";
@@ -23,7 +28,6 @@
 
     <!-- expression tag -->
     <%= "Hello " + name %>
-
 
 </body>
 </html>
